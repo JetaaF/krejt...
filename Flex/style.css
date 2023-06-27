@@ -1,0 +1,26 @@
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: gold;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* merr vlera, row,, row-reverse,, column,, column-reverse */
+    /* nese drejtimi i flex osht row,, boshti kryesor osht boshti X\
+    nese  drejtimi i flex osht column,, boshti kryesor osht boshti Y  */
+    width: 500px;
+    height: 700px;
+    background-color: seagreen;
+    /* justify-content: ; i rendit elementet ne boshtin kryesor*/
+    justify-content: center;
+    /* align-items: ; i rendit elementet ne boshtin tjeter */
+    align-items: center;
+    /* ne rast qe prindi nuk i zen elementet,,, flex-wrap
+    ne kete rest disa elemente shkojn ne rreshtin posht,,
+    perdoret edhe align-content */
+    flex-wrap: wrap;
+    gap: 30px;
+}

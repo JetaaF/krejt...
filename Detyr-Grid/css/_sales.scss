@@ -1,0 +1,55 @@
+.horizontal-1{
+    border-radius: 20px;
+    background-image: url('../images/horizontal-1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+    gap: 10px;
+}
+.discound{
+    font-weight: bolder;
+    font-size: 45px;
+}
+.normal{
+    font-size: 20px;
+}
+.horizontal-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.vertical-1{
+    background-image: url('../images/vertical-1.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: inset 500px 700px rgba(0, 0, 0, 0.24) ;
+    color: white;
+    padding: 20px;
+}
+.vertical-2{
+    background-image: url('../images/vertical-2.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: inset 500px 700px rgba(0, 0, 0, 0.24) ;
+    color: white;
+    padding: 20px;
+
+}
+.line{
+    text-decoration: line-through;
+    font-size: 20px ;
+}
+
+.first{
+    font-size: 30px;
+}
+._bold{
+font-size: 35px;
+font-weight: 500;
+}
